@@ -1,17 +1,19 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
-    background-color: #f4f4f4;
+    background-color: black;
+    color: orange;
 }
 
 h1 {
     text-align: center;
 }
 
+
 form {
-    background-color: white;
+    background-color: #1a1a1a;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid orange;
     margin-bottom: 20px;
 }
 
@@ -20,14 +22,21 @@ input, select, button {
     margin: 5px;
 }
 
+button {
+    background-color: orange;
+    color: black;
+    border: none;
+}
+
 .task {
-    background-color: white;
+    background-color: #1a1a1a;
+    color: orange;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid orange;
 }
 
 .completed {
     text-decoration: line-through;
-    background-color: #ddd;
+    background-color: #333333;
 }
